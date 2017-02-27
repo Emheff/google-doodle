@@ -1,9 +1,9 @@
 /* Stage */
 
 #stage {
-    background: #ccc;
-    height: 20em;
-    width: 40em;
+    background: gray;
+    height: 300px;
+    width: 600px;
 }
 
 #stage #star {
