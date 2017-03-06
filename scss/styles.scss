@@ -1,42 +1,23 @@
 // Grand Central Station
 
+
+
 @import 'google-homepage';
+@import 'svg.scss';
 
-// Test Svg
 
-}
-// First Frame
-img {
-    
-    width: 20%;
-    transform: translateY(-200px);
-    
-    transition: transform 1s;
 
-}
-#stage:hover img {
-    background: red;
-    transform: 100px;
-}
 
-// Last Frame
-img:hover {
-    opacity: 1;
-    transform: scale(1.5) rotate(180deg);
-}
 
-// First Frame
-.line {
-     fill:none;
-     stroke:#8cff19;
-     stroke-width:30;
-     stroke-miterlimit:10;
-    
-    transition: stroke 1s;
-}
 
-// Last Frame
-.line:hover {
-    stroke: red;
-}
+
+
+
+
+
+
+
+
+
+
 

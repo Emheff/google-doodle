@@ -3,17 +3,15 @@
 /* Stage */
 
 #stage {
-    background: #808080;
+//    background: #ccc;
     height: 300px;
     width: 600px;
+    
+   overflow: hidden;
+    
     position: relative;
-    overflow: auto;
 }
 
-#stage #star {
-    height: 100px;
-    width: 100px;
-}
 
 
 

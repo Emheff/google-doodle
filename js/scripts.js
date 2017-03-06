@@ -1,25 +1,22 @@
 // Store 3 images
-var img0 = '../img/400.jpg';
-var img1 = '../img/300.jpg';
-var img2 = '../img/200.jpg';
+var bg0 = '../img/mountain.svg';
+var bg1 = '../img/night-sky.svg';
+var bg2 = '../img/sunny-day.svg';
 
-// Get random number
-var max = 3;
-var numRand = Math.floor( Math.random() * max );
-console.log(numRand);
+//Random Number Generator
+var limit = 3;
+var randNum = Math.floor(Math.random() * limit);
+console.log(randNum); 
 
-// Display randomized images
-$('#random').attr( 'src', eval('img' + numRand) );
+// Get random body class
+// Change background color
+$('#stage').addClass( 'bg' + randNum );
 
-// Hide square
-    $('#stage.svg').hide();
-// click on button
-$('button').click(function() {
-                  
+var $svg = $('svg').drawsvg();
 
-// show square
-    $('#stage.svg').show('slow');
-    console.log('Ok')
-});
+$svg.drawsvg('animate');
+
+
+
 
 

@@ -1,0 +1,74 @@
+/* line 9, C:/Users/emily/Documents/GitHub/google-doodle/scss/svg.scss */
+.bg0 {
+  background: url(../img/mountain.svg); }
+
+/* line 12, C:/Users/emily/Documents/GitHub/google-doodle/scss/svg.scss */
+.bg1 {
+  background: url(../img/night-sky.svg); }
+
+/* line 15, C:/Users/emily/Documents/GitHub/google-doodle/scss/svg.scss */
+.bg2 {
+  background: url(../img/sunny-day.svg); }
+
+/* line 19, C:/Users/emily/Documents/GitHub/google-doodle/scss/svg.scss */
+svg.balloon {
+  position: absolute; }
+
+/* line 22, C:/Users/emily/Documents/GitHub/google-doodle/scss/svg.scss */
+#ball2 {
+  width: 5em;
+  height: 7em;
+  top: 80px;
+  left: -80px;
+  animation: bounce 3s infinite; }
+
+/* line 31, C:/Users/emily/Documents/GitHub/google-doodle/scss/svg.scss */
+#ball {
+  width: 4em;
+  height: 6em;
+  top: 150px;
+  left: -150px;
+  animation: bounce 1s 5s infinite; }
+
+/* line 41, C:/Users/emily/Documents/GitHub/google-doodle/scss/svg.scss */
+#ball3 {
+  width: 6em;
+  height: 8em;
+  top: 180px;
+  left: -230px;
+  animation: bounce 2s 5s infinite; }
+
+/* line 49, C:/Users/emily/Documents/GitHub/google-doodle/scss/svg.scss */
+aside {
+  animation: slideOutRight 12s infinite; }
+
+@keyframes slideOutRight {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0); } }
+
+@keyframes bounce {
+  from, 20%, 53%, 80%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  40%, 43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0); }
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0); }
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0); } }
+
+/*# sourceMappingURL=svg.css.map */
